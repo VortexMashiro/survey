@@ -2,11 +2,121 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Question5"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="What functions are the most often used?"
+        android:textSize="23sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Music functions"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Photo functions"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Game functions"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Business functions(Word,Excel,etc.)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="GPS functions"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Data functions(Bluetoot,WLAN,etc.)"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cbx_fun_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:text="Others"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_Next_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="btn_Next_ClickEvent"
+        android:text="Next" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>

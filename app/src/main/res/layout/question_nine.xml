@@ -2,11 +2,82 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Question9"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="What characteristic do you think is most important to evaluate a phone?"
+        android:textSize="23sp" />
+
+    <RadioGroup
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdo_char_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Appearance"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdo_char_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Price"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdo_char_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Performance"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rdo_char_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Others"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_Next_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="btn_Next_ClickEvent"
+        android:text="Next" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>
