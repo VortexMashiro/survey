@@ -69,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="Others"
+            android:onClick="btn_Next_ClickEvent"
             android:textSize="20sp" />
 
 

@@ -96,6 +96,7 @@
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
+            android:onClick="btn_Next_ClickEvent"
             android:text="LET'S START!" />
 
     </LinearLayout>

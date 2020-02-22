@@ -35,7 +35,8 @@
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:text="LET'S START!" />
+        android:onClick="btn_Next_ClickEvent"
+        android:text="FINISH" />
     <!-- END    : Your code should be within this block -->
 
 </LinearLayout>
